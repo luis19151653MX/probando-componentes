@@ -1,10 +1,28 @@
-.appContainer{
-    background-image: url("../images/autopista-inteligente.jpg"); /* la ubicación de tu imagen */
-   background-size: cover;
-    width: 100vw; /* 100% del ancho de la ventana del navegador */
-  height: 100vh; /* 100% de la altura de la ventana del navegador */
-  display: flex; /* agregar un contenedor flexible */
-  flex-direction: column; /* para que el contenido se apile verticalmente */
+/* Estilo de fondo del cuerpo */
+body {
+background-attachment: fixed; /* Fijar la imagen de fondo */
+background-image: url("../images/autopista-inteligente.jpg"); /* URL de la imagen de fondo */
+background-position: center center; /* Posición de la imagen de fondo */
+background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
+}
+
+/* Estilo del contenedor principal */
+.appContainer {
+display: flex; /* Agregar un contenedor flexible */
+flex-direction: column; /* Dirección de flexión del contenedor */
+height: 100vh; /* Altura del contenedor principal */
+width: 100vw; /* Anchura del contenedor principal */
+}
+
+/* Estilo de la barra de navegación */
+.navbar-personal {
+background-color: trasparent; /* Color de fondo transparente */
+backdrop-filter: blur(20px); /* Aplicar un filtro de desenfoque al fondo */
+color: rgb(240, 240, 100); /* Color del texto */
+position: fixed; /* Establecer la posición fija de la barra de navegación */
+top: 0; /* Distancia superior desde la parte superior de la ventana del navegador */
+width: 100%; /* Anchura de la barra de navegación */
 }
 
 .navbar-toggler-icon {
@@ -12,6 +30,6 @@
 }
 
 
-.titleText{
-    color:white;
+.titleText {
+    color: white;
 }

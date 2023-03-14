@@ -1,7 +1,7 @@
 import App from "../css-components/App.css"
 export default function navbar() {
     return (
-        <nav class="navbar navbar-expand-lg " style={{backgroundColor: "trasparent",backdropFilter:"blur(10px)" ,color:"rgb(240, 240, 100)"}}>
+        <nav class="navbar navbar-expand-lg navbar-personal ">
             <a class="navbar-brand" href="#" style={{color:"rgb(240, 240, 100)"}}>Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" ></span>
