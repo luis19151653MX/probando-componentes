@@ -1,0 +1,17 @@
+.appContainer{
+    background-image: url("../images/autopista-inteligente.jpg"); /* la ubicación de tu imagen */
+   background-size: cover;
+    width: 100vw; /* 100% del ancho de la ventana del navegador */
+  height: 100vh; /* 100% de la altura de la ventana del navegador */
+  display: flex; /* agregar un contenedor flexible */
+  flex-direction: column; /* para que el contenido se apile verticalmente */
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/icono-menu.svg");
+}
+
+
+.titleText{
+    color:white;
+}
