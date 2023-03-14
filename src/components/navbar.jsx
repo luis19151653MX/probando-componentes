@@ -1,4 +1,4 @@
-import App from "../css-components/App.css"
+import "../css-components/App.css"
 export default function navbar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-personal ">

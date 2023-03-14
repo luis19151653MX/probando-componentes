@@ -1,4 +1,5 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 import "./css-components/App.css"
 function App() {
@@ -7,8 +8,7 @@ function App() {
         <Navbar></Navbar>
         <h1 className="titleText">app</h1>
         <h1 className="titleText">app</h1>
-        <h1 className="titleText">app</h1>
-        <h1 className="titleText">app</h1>
+        <Profile></Profile>
         <h1 className="titleText">app</h1>
         <h1 className="titleText">app</h1>
         <h1 className="titleText">app</h1>
